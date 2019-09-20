@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: rgba(116,116,116,1.00);
+}
+
+a {
+	text-decoration: none;
+}
+
+#alfalfabet-header {
+	width: 100%;
+	height: auto;
+	display: block;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+}
+
+#header-image {
+	width: 69%;
+	height: auto;
+	display: block;
+	margin: auto;
+	padding: 15px 15px 10px 15px;
+}
+
+#game-cabinet {
+	width: 100%;
+	height: auto;
+	left: 0px;
+	display: block;
+	text-align: center;
+}
+
+.cubicle {
+	width: auto;
+	height: auto;
+	display: inline-block;
+	margin: auto;
+	padding: 1px;
+}
+
+.cubicle:hover {
+	border: 1px solid #9C9C9C;
+	padding: 0px;
+	cursor: help;
+}
+
+.cubicle-image {
+	width: 100%;
+	height: auto;
+}
+
+#s-square:hover {
+	cursor: auto;
+}
+
+#more-square:hover {
+	cursor: auto;
+}
+
+#alfalfabet-footer {
+	width: 100%;
+	height: auto;
+	display: block;
+	text-align: center;
+	bottom: 0px;
+	left: 0px;
+}
+
+#footer-image {
+	width: 20%;
+	height: auto;
+	display: block;
+	margin: auto;
+	padding: 15px;
+}

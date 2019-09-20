@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: rgba(116,116,116,1.00);
+	font-size: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#container {
+	width: 300px;
+	height: auto;
+	display: block;
+	text-align: center;
+	margin: auto;
+	top: 0px;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	display: block;
+	top: 0px;
+	margin: auto auto 4% auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.title-div {
+	width: 80%;
+	height: auto;
+	display: inline-block;
+	margin: 5% auto 5% auto;
+	float: left;
+	text-align: left;
+}
+
+.title-text {
+	color: #1E1E1E;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.descr-text {
+	color: #1E1E1E;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-left: 2em;
+	text-indent: 0em;
+	display: inline-block;
+}
+
+#back-arrow {
+	width: 25%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+
+#alfalfabet-footer {
+	width: 75%;
+	height: auto;
+	display: block;
+	text-align: center;
+	margin: auto;
+	bottom: 0px;
+}
+
+#footer-image {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.border {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}

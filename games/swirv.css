@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: rgba(116,116,116,1.00);
+	font-size: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#container {
+	width: 300px;
+	height: auto;
+	display: block;
+	text-align: center;
+	margin: auto;
+	top: 0px;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	display: block;
+	top: 0px;
+	margin: auto auto 4% auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.icon {
+	width: 20%;
+	height: auto;
+	display: inline-block;
+	margin: 5% auto auto auto;
+	border-radius: 10px;
+	float: left;
+}
+
+#title-div {
+	width: 80%;
+	height: auto;
+	display: inline-block;
+	margin: 5% auto auto auto;
+	float: left;
+	text-align: left;
+}
+
+#title-text {
+	color: #1E1E1E;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-left: 1em;
+	font-weight: bold;
+}
+
+#descr-text {
+	color: #1E1E1E;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-left: 1em;
+	text-indent: 0em;
+	display: inline-block;
+}
+
+#more-info-div {
+	width: 95%;
+	height: auto;
+	display: inline-block;
+	margin: 2% auto 5% 2%;
+	float: left;
+	text-align: left;
+}
+
+.left-text {
+	color: #1E1E1E;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding: 10px;
+	font-weight: bold;
+}
+
+.right-text {
+	color: #1E1E1E;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding: 10px;
+}
+
+#screenshot-text {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 4% auto 5% auto;
+	text-align: center;
+	float: left;
+}
+
+.screenshot {
+	width: 90%;
+	height: auto;
+	display: block;
+	margin: 5% auto auto auto;
+	border-radius: 5px;
+}
+
+#screenshot-4 {
+	margin-bottom: 8%;
+}
+
+#download-text {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 4% auto 3% auto;
+	text-align: center;
+	float: left;
+}
+
+#store-link-container {
+	width: inherit;
+	height: auto;
+	display: block;
+	margin: 2% auto auto auto;
+}
+
+.store-link {
+	width: 40%;
+	height: auto;
+	display: inline-block;
+	padding: 10px;
+	margin: none;
+}
+
+#back-arrow {
+	width: 25%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+
+#alfalfabet-footer {
+	width: 75%;
+	height: auto;
+	display: block;
+	text-align: center;
+	margin: auto;
+	bottom: 0px;
+}
+
+#footer-image {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.border {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
